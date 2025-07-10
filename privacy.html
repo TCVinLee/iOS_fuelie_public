@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Privacy Policy – Fuelie</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    :root {
+      --navy: #181836;
+      --accent: #ff00cc;
+      --teal: #40ffe0;
+      --pink: #ffb6e6;
+      --card-bg: rgba(255,255,255,0.10);
+      --card-border: linear-gradient(90deg, #ff00cc 0%, #40ffe0 100%);
+      --text-primary: #fff;
+      --text-secondary: #fff7;
+      --shadow: 0 8px 32px 0 rgba(255,0,204,0.18);
+      --radius: 24px;
+      --font-main: 'SF Pro Rounded', 'Segoe UI', 'Arial Rounded MT Bold', Arial, sans-serif;
+    }
+    body {
+      background: var(--navy);
+      color: var(--text-primary);
+      font-family: var(--font-main);
+      margin: 0;
+      padding: 0;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .container {
+      max-width: 540px;
+      width: 100%;
+      margin: 40px 0 24px 0;
+      padding: 0 16px;
+    }
+    .card {
+      background: var(--card-bg);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      border: 2.5px solid transparent;
+      background-clip: padding-box, border-box;
+      position: relative;
+      margin-bottom: 24px;
+      padding: 36px 28px 28px 28px;
+      border-image: var(--card-border) 1;
+      border-image-slice: 1;
+      overflow: hidden;
+    }
+    .card::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      border-radius: var(--radius);
+      pointer-events: none;
+      background: linear-gradient(120deg, var(--accent) 0%, var(--teal) 100%);
+      opacity: 0.08;
+      z-index: 0;
+    }
+    h1 {
+      font-size: 2.2rem;
+      font-weight: bold;
+      margin: 0 0 10px 0;
+      background: linear-gradient(90deg, var(--accent), var(--teal), var(--pink) 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      text-fill-color: transparent;
+      letter-spacing: 1px;
+      z-index: 1;
+      position: relative;
+    }
+    h2 {
+      font-size: 1.2rem;
+      color: var(--accent);
+      margin-top: 28px;
+      margin-bottom: 10px;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+      z-index: 1;
+      position: relative;
+    }
+    p, li {
+      color: var(--text-secondary);
+      font-size: 1.08rem;
+      line-height: 1.7;
+      margin: 0 0 14px 0;
+      z-index: 1;
+      position: relative;
+    }
+    ul {
+      padding-left: 22px;
+      margin: 0 0 18px 0;
+    }
+    .meta {
+      font-size: 1.01rem;
+      color: var(--teal);
+      margin-bottom: 20px;
+      font-weight: 500;
+      z-index: 1;
+      position: relative;
+    }
+    .contact {
+      margin-top: 20px;
+      font-size: 1.08rem;
+      color: var(--accent);
+      font-weight: 500;
+      word-break: break-all;
+      z-index: 1;
+      position: relative;
+    }
+    .logo-octtrack {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 20px;
+      z-index: 1;
+      position: relative;
+    }
+    .logo-octtrack span {
+      font-size: 1.5rem;
+      font-weight: bold;
+      background: linear-gradient(90deg, var(--accent), var(--teal), var(--pink) 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      text-fill-color: transparent;
+      letter-spacing: 1px;
+      margin-left: 8px;
+    }
+    @media (max-width: 600px) {
+      .container { padding: 0 2vw; }
+      .card { padding: 20px 4vw 16px 4vw; }
+      h1 { font-size: 1.4rem; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <div class="logo-octtrack">
+        <span>Fuelie</span>
+      </div>
+      <h1>Privacy Policy</h1>
+      <div class="meta">
+        <div><b>Effective Date:</b> 2 Jul 2025</div>
+        <div><b>Developer:</b> TC LEE</div>
+      </div>
+
+      <h2>1. Data Collection</h2>
+      <p>
+        This app uses Google AdMob SDK to display advertisements. AdMob may automatically collect certain device information, including but not limited to:
+      </p>
+      <ul>
+        <li>Device Identifier (e.g. IDFA)</li>
+        <li>Usage statistics</li>
+        <li>Crash data</li>
+        <li>Location (approximate, if allowed by the device settings)</li>
+      </ul>
+      <p>
+        The app does <b>not</b> collect personal data such as name, email, or login credentials.
+      </p>
+
+      <h2>2. Tracking</h2>
+      <p>
+        In compliance with Apple’s App Tracking Transparency (ATT) framework, the app will request your permission before using your device’s advertising identifier (IDFA) for personalized ads or tracking.
+      </p>
+      <p>
+        You can manage this preference in your iOS device settings.
+      </p>
+
+      <h2>3. Third-Party Services</h2>
+      <p>
+        This app uses the following third-party services:
+      </p>
+      <ul>
+        <li>Google AdMob</li>
+      </ul>
+      <p>
+        Please refer to their privacy policy for detailed information.
+      </p>
+
+      <h2>4. Contact</h2>
+      <p>
+        If you have any questions about this Privacy Policy, please contact us at:
+      </p>
+      <div class="contact">
+         tcvlee @me.com
+      </div>
+    </div>
+  </div>
+</body>
+</html>
